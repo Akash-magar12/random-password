@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+main {
+    width: 700px;
+    padding: 4rem;
+    margin: 200px auto;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    */
+    border: 2px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+img {
+    width: 20px;
+}
+
+button {
+    background-color: royalblue;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    cursor: pointer;
+}
+
+.h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.h2 {
+    color: royalblue;
+    border-bottom: 2px solid royalblue;
+    font-size: 2rem;
+}
+
+.input {
+    color: #333;
+    margin-top: 30px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    width: 50%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 400px;
+    padding: 15px 20px;
+}
+
+.img1 {
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+@media (max-width:600px) {
+    main {
+        width: 320px;
+        padding: 1rem;
+    }
+
+    .h1,
+    .h2 {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        width: 280px;
+    }
+
+    button {
+        padding: 8px 12px;
+        width: 180px;
+    }
+}
+
+@media (max-width:321px) {
+    main {
+        width: 300px;
+        margin: 100px auto;
+        padding: 1rem;
+    }
+
+    .h1,
+    .h2 {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        width: 250px;
+    }
+
+    button {
+        padding: 8px 12px;
+        width: 180px;
+    }
+}
